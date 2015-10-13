@@ -22,7 +22,7 @@ exports.Sassy = function *(next) {
       yield next;
       return;
     }
-    fs.writeFileSync(path.join(pubdir, filename + '.css'), css);
+    fs.writeFileSync(path.join(pubdir, filename + '.css'), css.css);
   }
   yield next;
 };
