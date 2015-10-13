@@ -16,7 +16,7 @@
     "koa-ejs": "^1.1.2",
     "koa-route": "~2.2.0",
     "koa-session": "2.0.0",
-    "koa-socket": "git://github.com/alexcdahl/koa-socket.git#8409d27ed5a680899b1ff0b63827397cf2948369",
+    "koa-socket": "https://github.com/alexcdahl/koa-socket.git",
     "koa-static": "^1.4.7",
     "ldap": "^0.7.1",
     "moment": "^2.8.4",

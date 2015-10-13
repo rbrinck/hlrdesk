@@ -1,0 +1,23 @@
+HLRDESK_DEV=true
+# for false, uncomment the following line
+#HLRDESK_DEV=
+PORT=8080 # this is unprefixed for Dokku's sake
+HLRDESK_HOST=localhost
+# Postgres database values
+PGPASSWORD=password
+PGHOST=localhost
+PGUSER=postgres
+PGDATABASE=hlrdesk
+PGPORT=5432
+PGPOOLSIZE=10
+# for Postgres versions < 9.4
+PGPASS=password
+#Google Analytics ID
+GAID=UA-57856521-1
+#Redis
+REDIS_PORT=6379
+REDIS_IP=localhost
+# Email G00dness
+EMAIL=hlr.dev.useyouremailN00Bulous@gmail.com
+EMAILSERVICE=Gmail
+EMAILPASS=password
