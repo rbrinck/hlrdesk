@@ -1,4 +1,4 @@
-<section id=check-out>
+<!--section id=check-out>
   <form id=check-out-form class=check-out-form>
     <label class=check-out-main-label for=check-out-search>Enter an item or call number</label>
     <input id=check-out-search class=check-out-search autofocus incremental name=search type=search placeholder="Nicolas Cage Collection, Vol. XII">
@@ -13,7 +13,7 @@
       <button class='check-out-btn greenBtn' disabled=disabled>Check Out</button>
     </div>
   </div>
-</section>
+</section-->
 
 <template id=check-out-prompt>
   <header>Check out</header>
@@ -21,9 +21,10 @@
     <ol class='inventory check-out-prompt'></ol>
     <div class='check-out-input-container'>
       <label for=check-out-netid>Patron's Net ID</label><input id=check-out-netid type=text name=netid required>
-      <label for=check-out-email>Patron's Email</label><input id=check-out-email type=email name=email>
-      <label for=check-out-phone>Patron's Phone</label><input id=check-out-phone placeholder="801-555-1234" type=tel name=tel>
+      <label for=check-out-email>Patron's Email*</label><input id=check-out-email type=email name=email>
+      <label for=check-out-phone>Patron's Phone*</label><input id=check-out-phone placeholder="801-555-1234" type=tel name=tel>
       <input type=submit value='Submit' class='mainBtn check-out-prompt submit'>
+      <p>*This is so we can tell you when something's due so you don't have to pay a fine. No worries, we're not going to spam you.</p>
     </div>
   </form>
 </template>
